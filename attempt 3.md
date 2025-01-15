@@ -51,16 +51,3 @@ The output is presented as a table where each row contains the following columns
 - **Fair Score**: The calculated fair score for the anime.
 - **Fair Weighted Score**: The calculated fair weighted score for the anime.
 
-The table is sorted by the fair score in descending order.
-
-## Usage
-To use the program, simply input the dataset into the script, and it will automatically compute the fair score, fair weighted score, and score distribution for each anime. The resulting output will be displayed as a neatly formatted table with the anime titles ranked by their fair scores.
-"""
-
-# Saving the content into a README.md file
-readme_path = '/mnt/data/README.md'
-with open(readme_path, 'w') as file:
-    file.write(readme_content)
-
-readme_path  # Returning the path for download
-
